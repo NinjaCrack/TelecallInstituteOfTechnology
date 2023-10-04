@@ -2,6 +2,10 @@ body{
 			background-color: #DEE2E6;
 
 		}
+.sidebar{
+	width: 500px;
+	margin: 0 auto;
+}
 .wrapper .sidebar{
 	
     background:  #212529; /* #E2C275;*/
