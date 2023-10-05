@@ -3,7 +3,7 @@
 }
 body {
 		  background: ;
-		  font-family: Century Gothic;
+		  font-family: Arial, Helvetica, sans-serif;
 		  margin: 0;
 		}
 nav{
@@ -17,6 +17,18 @@ nav{
 .nav-link:hover{
 	/* background-color:#0074e4; */
 	color: #FFF80A;
+}
+.nav-button{
+	border-radius: 20px;
+	background-color: #FFF80A;
+	color: #0038a8;
+	text-transform:capitalize;
+	padding: auto 0;
+	text-align: center;
+}
+.nav-button:hover{
+	color:#0038a8;
+	scale: 1.1;
 }
 div[class~="carousel-item"] img{
 	width: max(100%);
