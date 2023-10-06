@@ -171,3 +171,15 @@ div[ class~="card"] img{
 section[id~=faq]{
 	font-size: 1.1rem;
 }
+.developer div{
+	display: inline-block;
+	float: left;
+}
+.developer img{
+	border-radius: 50%;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.developer-details{
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+
+}
