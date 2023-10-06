@@ -92,7 +92,9 @@ section[id~=gallery] img:hover{
 form{
 	box-shadow: 0 0 50px 0 rgba(33, 37, 41, 1);
 	padding: 2rem;
-	width: 100%;
+	margin: auto;
+	width: 80%;
+	border-radius: 20px;
 }
 form div{
 	display: block;
