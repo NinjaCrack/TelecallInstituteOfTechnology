@@ -1,0 +1,173 @@
+*{
+	box-shadow: border-box;
+}
+body {
+		  background: ;
+		  font-family: Arial, Helvetica, sans-serif;
+		  margin: 0;
+
+		}
+header{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-between;
+	position: fixed;
+	background: #0038a8;
+	
+}
+.banner{
+	padding: 1rem;
+	width: max(20rem);
+	height: max(80px);
+	justify-content: flex-start;
+}
+.address{
+	margin: auto;
+	color: #fff;
+}
+nav{
+	display: flex;
+	flex-wrap: nowrap;
+}
+nav ul li{
+	display: inline-block;
+	padding:  ;
+	margin-right: 1rem ;
+}
+nav ul li a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 1.2em;
+	text-transform: uppercase;
+}
+nav ul li a:hover{
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+	color: #FFF80A;
+	
+}
+.wrapper{
+  	margin: auto auto;
+  	max-width: 80%;
+  	padding-right: auto;
+  	padding-left:  auto;
+}
+section{
+ width: 100%;
+ padding-bottom: 5rem;
+
+}
+section h1{
+	font-size: 2.5rem;
+	text-align: center;
+
+}
+section[id~=home]{
+	text-align: center;
+	align-items: center;
+	margin-bottom: 2rem;
+}
+section[id~=home] img{
+	margin-top:14rem ;
+	width: max(100%);
+}
+
+section[id~=gallery] {
+	text-align: center;
+}
+section[id~=gallery] img{
+	width: 20rem;
+	height: 20rem;
+	border-radius: 20px;
+	padding: .2rem;
+	box-shadow: 0 10px 10px 0 gray;
+}
+section[id~=gallery] img:hover{
+	background-color: rgba(0,0,0,0.2);
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);	
+	cursor: pointer;
+}
+form{
+	box-shadow: 0 0 50px 0 rgba(33, 37, 41, 1);
+	padding: 2rem;
+}
+form div{
+	display: block;
+	text-align: center;
+	font-size: 1.5rem;
+	padding: .5rem;
+}
+form input,form select{
+	border-radius: 10px;
+	height: 2rem;
+	width: 20rem;
+	font-size: 1.2rem;
+}
+form textarea{
+	border-radius: 10px;
+	width: 20rem;
+}
+form button[type~=submit]{
+	width: 80%;
+	margin-top: 1.5rem;
+	border-radius: 10px;
+	height: 2.5rem;
+	background-color:#0038a8 ;
+	font-size: 1.5rem;
+	color: #fff;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+form button[type~=submit]:hover{
+	cursor: pointer;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+	background-color: #FFF80A;
+	color: #000;
+}
+
+section[id~=about]{
+ text-align: center;
+}
+section[id~=about] div{
+	display: inline-block;
+	text-align: center;
+	padding: 2rem;
+}
+section[id~=about] div h2{
+	font-size: 2rem;
+}
+section[id~=about] div p{
+	font-size: 1.5rem;
+}
+footer{
+	background-color:rgba(33, 37, 41, 1);
+	color: #fff;
+	text-align: center;
+	margin-bottom: 0;
+	font-size: 16px;
+	padding: 10px;
+}
+section[id~=courses]{
+	width: 100%;
+}
+.card{
+	display: inline-block;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  	transition: 0.3s;
+  	width: 30%;
+  	margin: 10px;
+  	padding: 5px;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.card-body {
+  padding: 2px 16px;
+  text-align: center;
+}
+div[ class~="card"] img{
+	width: 100%;
+	height: 20rem;
+}
+section[id~=faq]{
+	font-size: 1.1rem;
+}
